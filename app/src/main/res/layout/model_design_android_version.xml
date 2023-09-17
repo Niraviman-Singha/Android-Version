@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A8FF5722"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+           android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/android_one_point_zero"
+            >
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#81DCE86A"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/versionTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version: "
+                android:textColor="#091245"
+                android:padding="5dp"
+                android:textSize="25dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/nameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textColor="#091245"
+                android:padding="5dp"
+                android:textSize="25dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/apiTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="API: "
+                android:textColor="#091245"
+                android:padding="5dp"
+                android:textSize="25dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/releaseTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Release: "
+                android:textColor="#091245"
+                android:padding="5dp"
+                android:textSize="25dp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
